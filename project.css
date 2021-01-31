@@ -31,8 +31,8 @@ body {
 
 .aboutInfoEntry {
     font-size: 1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
     text-align: justify;
 }
 
@@ -200,20 +200,6 @@ nav ul {
     padding: 0px;
 }
 
-button {
-    width: 10rem;
-    height: 4rem;
-    background-color: mintcream;
-    border-radius: 10px;
-    border-color:#3a8f4e;
-}
-
-button a {
-    color: #3a8f4e;
-    text-decoration: none;
-    font-size: 1.25rem;
-}
-
 @media only screen and (max-width: 10000px) {
     .resumeInfoMobile {
         display: none;
@@ -222,23 +208,18 @@ button a {
 
 @media only screen and (max-width: 1325px) {
     html {
-        font-size: 11px;
+        font-size: 14px;
     }
 
     .resumeInfoMobile {
         display: none;
     }
 
-    .resumeInfo img {
-        width: 50vw;
-        height: auto;
-    }
-
 }
 
 @media only screen and (max-width: 1000px) {
     html {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .aboutCover {
@@ -277,7 +258,7 @@ button a {
 
 @media only screen and (max-width: 650px) {
     html {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     nav ul {
@@ -296,7 +277,7 @@ button a {
 
 @media only screen and (max-width: 500px) {
     html {
-        font-size: 10px;
+        font-size: 11px;
     }
     .projectsEntry h2 {
         font-size: 3rem;
@@ -305,7 +286,7 @@ button a {
 
 @media only screen and (max-width: 400px) {
     html {
-        font-size: 8px;
+        font-size: 10px;
         min-width: 350px;
     }
     .projectsEntry h2 {
