@@ -23,6 +23,8 @@ body {
     font-size: 8rem;
     display: inline-grid;
     place-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .aboutInfoEntry {
@@ -40,7 +42,7 @@ body {
 }
 
 .socials {
-    margin: 0px;
+    transform: translateY(-1rem);
 }
 .socials ul {
     font-size: 1rem;
@@ -85,6 +87,8 @@ body {
     float: left;
     color: white;
     font-size: 8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .projectsContainer {
